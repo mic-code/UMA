@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9448878e2e40f1a4c9f8fd2b56832b13, type: 3}
+  m_Name: F_Wanderer
+  m_EditorClassIdentifier: 
+  recipeType: Standard
+  DisplayValue: 
+  compatibleRaces: []
+  wardrobeRecipeThumbs: []
+  wardrobeSlot: None
+  Hides: []
+  suppressWardrobeSlots: []
+  activeWardrobeSet: []
+  MeshHideAssets: []
+  recipeString: '{"version":2,"packedSlotDataList":[],"slotsV2":[{"id":"FemaleEyes","scale":100,"copyIdx":-1,"overlays":[{"id":"EyeOverlay","colorIdx":0,"rect":[0,0,0,0]},{"id":"EyeOverlayAdjust","colorIdx":1,"rect":[32,32,64,64]}]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"F_Wanderer
+    Backpack","scale":100,"copyIdx":-1,"overlays":[{"id":"Wanderer backpack","colorIdx":2,"rect":[0,0,0,0]}]},{"id":"F_Wanderer
+    Bag1","scale":100,"copyIdx":-1,"overlays":[{"id":"Wanderer bags","colorIdx":3,"rect":[0,0,0,0]}]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"F_Wanderer
+    Belt","scale":100,"copyIdx":-1,"overlays":[]},{"id":"F_Wanderer Boot","scale":100,"copyIdx":-1,"overlays":[{"id":"Wanderer
+    boot","colorIdx":4,"rect":[0,0,0,0]}]},{"id":"F_Wanderer Cap","scale":100,"copyIdx":-1,"overlays":[{"id":"Wanderer
+    cap","colorIdx":5,"rect":[0,0,0,0]}]},{"id":"F_Wanderer Lowerbody","scale":100,"copyIdx":-1,"overlays":[{"id":"Wanderer
+    lowerbody","colorIdx":6,"rect":[0,0,0,0]}]},{"id":"F_Wanderer Scarf","scale":100,"copyIdx":-1,"overlays":[{"id":"Wanderer
+    scarf","colorIdx":7,"rect":[0,0,0,0]}]},{"id":"F_Wanderer Torso","scale":100,"copyIdx":-1,"overlays":[{"id":"Wanderer
+    torso","colorIdx":8,"rect":[0,0,0,0]}]},{"id":"F_High poly head","scale":100,"copyIdx":-1,"overlays":[{"id":"F_H_Head","colorIdx":9,"rect":[0,0,0,0]}]},{"id":"","scale":1,"copyIdx":-1,"overlays":[]},{"id":"UMA_Human_Female_Hands_HQ","scale":100,"copyIdx":-1,"overlays":[{"id":"F_H_Bod","colorIdx":10,"rect":[0,0,0,0]}]},{"id":"M_Wanderer
+    Bag2","scale":100,"copyIdx":34,"overlays":[]},{"id":"M_Wanderer Bag3","scale":100,"copyIdx":34,"overlays":[]}],"colors":[],"fColors":[{"name":"-","colors":[255,255,255,0,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"-","colors":[94,122,165,0,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]},{"name":"","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0]}],"sharedColorCount":0,"race":"HumanFemale","packedDna":[{"dnaType":"UMADnaHumanoid","dnaTypeHash":-212795365,"packedDna":"{\"height\":110,\"headSize\":127,\"headWidth\":111,\"neckThickness\":129,\"armLength\":127,\"forearmLength\":124,\"armWidth\":93,\"forearmWidth\":164,\"handsSize\":129,\"feetSize\":129,\"legSeparation\":131,\"upperMuscle\":54,\"lowerMuscle\":54,\"upperWeight\":56,\"lowerWeight\":50,\"legsSize\":114,\"belly\":56,\"waist\":172,\"gluteusSize\":138,\"earsSize\":111,\"earsPosition\":81,\"earsRotation\":99,\"noseSize\":79,\"noseCurve\":82,\"noseWidth\":171,\"noseInclination\":117,\"nosePosition\":162,\"nosePronounced\":200,\"noseFlatten\":192,\"chinSize\":99,\"chinPronounced\":93,\"chinPosition\":125,\"mandibleSize\":119,\"jawsSize\":144,\"jawsPosition\":114,\"cheekSize\":129,\"cheekPosition\":83,\"lowCheekPronounced\":92,\"lowCheekPosition\":160,\"foreheadSize\":142,\"foreheadPosition\":76,\"lipsSize\":152,\"mouthSize\":167,\"eyeRotation\":171,\"eyeSize\":104,\"breastSize\":116}"},{"dnaType":"UMADnaTutorial","dnaTypeHash":-1679007774,"packedDna":"{\"eyeSpacing\":128}"}],"wardrobeSet":[],"packedRecipeType":"Standard"}'
