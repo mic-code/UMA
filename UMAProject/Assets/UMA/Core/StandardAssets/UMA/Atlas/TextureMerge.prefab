@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 400002}
   - component: {fileID: 11400000}
-  - component: {fileID: 114351500777494888}
   m_Layer: 31
   m_Name: TextureMerge
   m_TagString: Untagged
@@ -54,19 +53,5 @@ MonoBehaviour:
   textureMergeRectCount: 0
   textureMergeRects: []
   diffusePostProcesses: []
-  normalPostProcesses:
-  - {fileID: 114351500777494888}
+  normalPostProcesses: []
   dataPostProcesses: []
---- !u!114 &114351500777494888
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100002}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d798d4649ed1494e9924a7df38fea89, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  shader: {fileID: 4800000, guid: 4ba4fc977756a804ca835788b496e3f7, type: 3}
