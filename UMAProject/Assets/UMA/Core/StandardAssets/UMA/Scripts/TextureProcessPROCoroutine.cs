@@ -106,6 +106,16 @@ namespace UMA
                                     TextureBliter.BlitRect(mergeRect.rect, destinationTexture, mergeRect.tex, mergeRect.mat);
                             }
 
+                            if (slotData.asset.material.channels[textureType].channelType == UMAMaterial.ChannelType.NormalMap)
+                            {
+                                var normalMapMaterial = new Material(textureMerge.normalMapPostprocessShader);
+                                var tempTarget = RenderTexture.GetTemporary(destinationTexture.width, destinationTexture.height, 0, destinationTexture.format, RenderTextureReadWrite.Linear);
+
+                                TextureBliter.BlitRect(new Rect(0, 0, destinationTexture.width, destinationTexture.height), tempTarget, destinationTexture, normalMapMaterial);
+                                Graphics.Blit(tempTarget, normalMapMaterial);
+                                RenderTexture.ReleaseTemporary(tempTarget);
+                            }
+
                             if (umaGenerator.convertRenderTexture || slotData.asset.material.channels[textureType].ConvertRenderTexture)
                             {
                                 #region Convert Render Textures

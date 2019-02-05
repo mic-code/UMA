@@ -15,6 +15,7 @@ namespace UMA
 		public Shader diffuseShader;
 		public Shader dataShader;
 		public Shader cutoutShader;
+        public Shader normalMapPostprocessShader;
 		public int textureMergeRectCount;
 		public TextureMergeRect[] textureMergeRects;
 

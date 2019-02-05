@@ -49,6 +49,8 @@ MonoBehaviour:
   diffuseShader: {fileID: 4800000, guid: ae83be5246f311646b3043ed012d9d64, type: 3}
   dataShader: {fileID: 4800000, guid: 8179a5383e28f6840a80314368b93979, type: 3}
   cutoutShader: {fileID: 4800000, guid: 6ec55823d603ee4478b56d3f0d7ce6bb, type: 3}
+  normalMapPostprocessShader: {fileID: 4800000, guid: 4ba4fc977756a804ca835788b496e3f7,
+    type: 3}
   textureMergeRectCount: 0
   textureMergeRects: []
   diffusePostProcesses: []
