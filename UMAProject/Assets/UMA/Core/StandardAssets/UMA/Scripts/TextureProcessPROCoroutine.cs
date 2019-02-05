@@ -112,7 +112,7 @@ namespace UMA
                                 var tempTarget = RenderTexture.GetTemporary(destinationTexture.width, destinationTexture.height, 0, destinationTexture.format, RenderTextureReadWrite.Linear);
 
                                 TextureBliter.BlitRect(new Rect(0, 0, destinationTexture.width, destinationTexture.height), tempTarget, destinationTexture, normalMapMaterial);
-                                Graphics.Blit(tempTarget, normalMapMaterial);
+                                Graphics.Blit(tempTarget, destinationTexture, normalMapMaterial);
                                 RenderTexture.ReleaseTemporary(tempTarget);
                             }
 
